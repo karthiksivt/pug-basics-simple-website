@@ -1,0 +1,61 @@
+doctype html 
+html
+    head
+        title Dance Website 
+        style   
+            include ../static/style.css
+    body 
+        
+        nav#navbar 
+            ul 
+                div#logo   
+                    img(src="./static/logo.png", alt="")
+                li #[a(href="http://") Home] 
+                li #[a(href="http://") Services] 
+                li #[a(href="http://") About Us] 
+                li #[a(href="http://") Classes Info] 
+                li #[a(href="http://") Contact Us] 
+
+        section#introsection 
+                div Welcome to Dance Academy
+                div Eat Sleep Dance Repeat
+
+        section#missionsection 
+                h2 our Mission
+                div.card
+                    h4 Dance Perfection
+                    div.card-box 
+                        div.card-img
+                            img(src="./static/mission1.png", alt="")
+                        div.card-content 
+                            p This is best dance class ever in india 
+                        
+                div.card 
+                    h4 Dance the way u like  
+                    div.card-box 
+                        div.card-img
+                            img(src="./static/mission1.png", alt="")
+                        div.card-content 
+                            p you can learn various dances with best lectures
+                div.card 
+                    h4 Expert teaching
+                    div.card-box 
+                        div.card-img 
+                            img(src="./static/mission1.png", alt="")
+                        div.card-content 
+                            p we teach you the essence of dance and its uses for future generation
+        section#sponsersection 
+                h2 Our Sponsers
+
+                div#sponsers 
+                    img(src="./static/logo1.png", alt="" class="spimage")
+                    img(src="./static/logo2.jpg", alt="" class="spimage")
+                    img(src="./static/logo3.png", alt="" class="spimage")
+                    img(src="./static/logo4.png", alt="" class="spimage")
+
+        footer#footer 
+                h3 COPYRIGHT&#169; 2021 -- KARTHIK
+
+
+    script  
+        include ../static/index.js

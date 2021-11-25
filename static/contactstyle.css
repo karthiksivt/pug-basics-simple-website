@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Ubuntu:wght@300;400&display=swap');
+
+h1{
+    text-align: center;
+    margin:12px 0;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+
+.myform{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    display:block;
+    width:40%;
+    padding: 9px;
+    margin:8px;
+    font-size: 16px;
+    border: 2px solid black
+    
+
+}
+
+.btn{
+    padding: 8px 20px ;
+    font-size: 18px;
+    
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.container{
+    min-height: 72vh;
+}
